@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import FeedbackItem from './components/FeedbackItem'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,7 @@ function App() {
     <>
       <Header />
       <div className='container'>
-        <h1>My App</h1>
+        <FeedbackItem />
       </div>
     </>
   )
